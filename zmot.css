@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
+#pleaserotate-graphic{
+  fill: #fff;
+}
+
+#pleaserotate-backdrop {
+  color: #fff;
+  background-color: #000;
+}
+
 .details {
   font-family: 'Montserrat';
   position: absolute;  
