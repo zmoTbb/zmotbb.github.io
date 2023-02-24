@@ -17,16 +17,14 @@
         top: 775px;
         width: 1757px;
         height: 40px;
-        z-index: 999;
+        z-index: 99;
     }
       .checkboxes {
       font-family: 'Bangers'; font-size: 21px;      
       position: absolute;
       left: 1360px;
       top: 0px;
-      width: 400x;
-      height: 762px;
-      z-index: 999;
+      z-index: 99;
       }
     .deck1 {
       background-image: url("deck1.png");
