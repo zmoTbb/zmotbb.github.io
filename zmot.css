@@ -246,11 +246,11 @@
     }
 
     .ramp1 {
-      background-image: url("ramp1.png");
+      background-image: url("ramp1new.png");
       position: absolute;
       left: 617px;
       top: 481px;
-      width: 334px;
+      width: 329px;
       height: 281px;
       z-index: 32;
     }
@@ -266,13 +266,13 @@
     }
 
     .ramp3 {
-      background-image: url("ramp3.png");
+      background-image: url("ramp3new.png");
       position: absolute;
-      left: 998px;
-      top: 241px;
-      width: 249px;
-      height: 259px;
-      z-index: 34;
+      left: 999px;
+      top: 244px;
+      width: 247px;
+      height: 248px;
+      z-index: 35;
     }
     .zmot_text {
       font-size: 35px;
