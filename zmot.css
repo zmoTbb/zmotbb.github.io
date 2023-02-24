@@ -16,7 +16,15 @@
   top: 0px;
   z-index: 99;
       }
-
+.overlay {
+  background-image: url("overlay.png");
+  position: absolute;
+  left: 279px;
+  top: 50px;
+  width: 815px;
+  height: 568px;
+  z-index: 38;
+}
 .background {
   background-image: url("background.png");
   position: absolute;
