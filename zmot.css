@@ -38,9 +38,9 @@
 .deck2 {
   background-image: url("deck2.png");
   position: absolute;
-  left: 563px;
+  left: 561px;
   top: 441px;
-  width: 223px;
+  width: 225px;
   height: 175px;
   z-index: 8;
 }
