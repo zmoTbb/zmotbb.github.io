@@ -23,6 +23,7 @@
       left: 1360px;
       top: 0px;
       z-index: 99;
+      width: 80px;
       }
     .deck1 {
       background-image: url("deck1.png");
