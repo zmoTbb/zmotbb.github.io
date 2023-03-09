@@ -286,3 +286,57 @@
   height: 248px;
   z-index: 35;
 }
+._2ER {
+  background-image: url("2ER.png");
+  position: absolute;
+  left: 1087px;
+  top: 561px;
+  width: 112px;
+  height: 39px;
+  z-index: 11;
+}
+._3ER {
+  background-image: url("3ER.png");
+  position: absolute;
+  left: 1087px;
+  top: 562px;
+  width: 112px;
+  height: 39px;
+  z-index: 10;
+}
+._4ER {
+  background-image: url("4ER.png");
+  position: absolute;
+  left: 1088px;
+  top: 562px;
+  width: 116px;
+  height: 38px;
+  z-index: 9;
+}
+._5ER {
+  background-image: url("5ER.png");
+  position: absolute;
+  left: 1087px;
+  top: 562px;
+  width: 112px;
+  height: 39px;
+  z-index: 8;
+}
+._6ER {
+  background-image: url("6ER.png");
+  position: absolute;
+  left: 1089px;
+  top: 561px;
+  width: 112px;
+  height: 40px;
+  z-index: 7;
+}
+._7ER {
+  background-image: url("7ER.png");
+  position: absolute;
+  left: 1088px;
+  top: 562px;
+  width: 112px;
+  height: 38px;
+  z-index: 6;
+}
