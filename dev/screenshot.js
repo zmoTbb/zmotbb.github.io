@@ -8,14 +8,10 @@ button.addEventListener('click', function() {
     return window.getComputedStyle(div).display !== 'none';
   });
 
-  // Get the dimensions of the page
-  const width = 1321;
-  const height = 749;
-
   // Create a canvas element with the same dimensions as the page
   const canvas = document.createElement('canvas');
-  canvas.width = width;
-  canvas.height = height;
+  canvas.width = 1321;
+  canvas.height = 749;
 
   // Get the canvas context and draw the divs onto it
   const context = canvas.getContext('2d');
