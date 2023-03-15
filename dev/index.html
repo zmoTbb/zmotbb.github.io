@@ -75,8 +75,6 @@
     </p>
   </div>
   
-<div id="content">
-  BLAH BLAH BLAH
   <div class="background"></div>
   <div hidden class="frontramp" id="frontramp"></div>
   <div hidden class="ramp1" id="ramp1"></div>
@@ -112,7 +110,6 @@
   <div class="er5"></div>
   <div class="er6"></div>
   <div class="er7"></div>
-</div>
 
   <div class="ERbuttons">
     <input type="radio" name="er" value="er2" id="er2-radio"> 2 ER
@@ -123,19 +120,10 @@
     <input type="radio" name="er" value="er7" id="er7-radio"> 7 ER
   </div>
 
-  <div class="share">Ready to Share? <button onclick="takeScreenshot()">Download Screenshot</button></div>
+  <div class="share">Ready to Share? <button id="screenshot-button">Download Screenshot</button></div>
 
-  <script>
-    function takeScreenshot() {
-      html2canvas(document.getElementById("content")).then(function(canvas) {
-        var link = document.createElement("a");
-        document.body.appendChild(link);
-        link.download = "screenshot.png";
-        link.href = canvas.toDataURL();
-        link.click();
-      });
-    }
-  </script>
+  <script src="screenshot.js"></script>
+
   <div class=details>
     
     <h3>Disclaimer:</h3>
