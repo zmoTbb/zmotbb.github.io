@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+#pleaserotate-graphic{
+  fill: #fff;
+}
+
+#pleaserotate-backdrop {
+  color: #fff;
+  background-color: #000;
+}
+.share {
+  text-align: right;
+  font-family: 'Bangers'; font-size: 21px;  
+  position: absolute;  
+  left: 900 px;
+  top: 750px;
+  width: 1280px;
+  z-index: 11;
+}
+
+.ERbuttons {
+  font-family: 'Bangers'; font-size: 21px;  
+  position: absolute;  
+  left: 0 px;
+  top: 750px;
+  width: 500px;
+  z-index: 12;
+}
+.details {
+  font-family: 'Montserrat';
+  position: absolute;  
+  left: 0 px;
+  top: 775px;
+  width: 1280px;
+}
+.checkboxes {
+  font-family: 'Bangers'; font-size: 21px;      
+  position: absolute;
+  left: 1325px;
+  width: 80px;
+  top: 0px;
+  z-index: 99;
+      }
+.overlay {
+  background-image: url("overlay.png");
+  position: absolute;
+  left: 279px;
+  top: 50px;
+  width: 815px;
+  height: 568px;
+  z-index: 38;
+}
+.background {
+  background-image: url("background.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1321px;
+  height: 749px;
+  z-index: 2;
+}
+.deck1 {
+  background-image: url("deck1.png");
+  position: absolute;
+  left: 281px;
+  top: 329px;
+  width: 329px;
+  height: 273px;
+  z-index: 7;
+}
+.deck2 {
+  background-image: url("deck2.png");
+  position: absolute;
+  left: 561px;
+  top: 441px;
+  width: 225px;
+  height: 175px;
+  z-index: 8;
+}
+.deck3 {
+  background-image: url("deck3.png");
+  position: absolute;
+  left: 735px;
+  top: 314px;
+  width: 222px;
+  height: 168px;
+  z-index: 9;
+}
+.deck4 {
+  background-image: url("deck4.png");
+  position: absolute;
+  left: 906px;
+  top: 222px;
+  width: 186px;
+  height: 125px;
+  z-index: 10;
+}
+.deck5 {
+  background-image: url("deck5.png");
+  position: absolute;
+  left: 546px;
+  top: 434px;
+  width: 147px;
+  height: 101px;
+  z-index: 11;
+}
+.deck6 {
+  background-image: url("deck6.png");
+  position: absolute;
+  left: 604px;
+  top: 379px;
+  width: 149px;
+  height: 97px;
+  z-index: 12;
+}
+.deck7 {
+  background-image: url("deck7.png");
+  position: absolute;
+  left: 704px;
+  top: 335px;
+  width: 113px;
+  height: 95px;
+  z-index: 13;
+}
+.deck8 {
+  background-image: url("deck8.png");
+  position: absolute;
+  left: 706px;
+  top: 247px;
+  width: 189px;
+  height: 119px;
+  z-index: 14;
+}
+.deck9 {
+  background-image: url("deck9.png");
+  position: absolute;
+  left: 834px;
+  top: 190px;
+  width: 147px;
+  height: 137px;
+  z-index: 15;
+}
+.deck10 {
+  background-image: url("deck10.png");
+  position: absolute;
+  left: 823px;
+  top: 110px;
+  width: 235px;
+  height: 136px;
+  z-index: 16;
+}
+.deck11 {
+  background-image: url("deck11.png");
+  position: absolute;
+  left: 508px;
+  top: 385px;
+  width: 132px;
+  height: 116px;
+  z-index: 17;
+}
+.deck12 {
+  background-image: url("deck12.png");
+  position: absolute;
+  left: 435px;
+  top: 340px;
+  width: 149px;
+  height: 128px;
+  z-index: 18;
+}
+.deck13 {
+  background-image: url("deck13.png");
+  position: absolute;
+  left: 496px;
+  top: 247px;
+  width: 251px;
+  height: 164px;
+  z-index: 19;
+}
+.deck14 {
+  background-image: url("deck14.png");
+  position: absolute;
+  left: 634px;
+  top: 222px;
+  width: 159px;
+  height: 116px;
+  z-index: 20;
+}
+.deck15 {
+  background-image: url("deck15.png");
+  position: absolute;
+  left: 712px;
+  top: 177px;
+  width: 153px;
+  height: 103px;
+  z-index: 21;
+}
+.deck16 {
+  background-image: url("deck16.png");
+  position: absolute;
+  left: 719px;
+  top: 121px;
+  width: 201px;
+  height: 111px;
+  z-index: 22;
+}
+.deck17 {
+  background-image: url("deck17.png");
+  position: absolute;
+  left: 356px;
+  top: 282px;
+  width: 144px;
+  height: 124px;
+  z-index: 23;
+}
+.deck18 {
+  background-image: url("deck18.png");
+  position: absolute;
+  left: 416px;
+  top: 218px;
+  width: 151px;
+  height: 125px;
+  z-index: 24;
+}
+.deck19 {
+  background-image: url("deck19.png");
+  position: absolute;
+  left: 288px;
+  top: 252px;
+  width: 170px;
+  height: 92px;
+  z-index: 25;
+}
+.deck20 {
+  background-image: url("deck20.png");
+  position: absolute;
+  left: 475px;
+  top: 137px;
+  width: 180px;
+  height: 143px;
+  z-index: 26;
+}
+.deck21 {
+  background-image: url("deck21.png");
+  position: absolute;
+  left: 591px;
+  top: 163px;
+  width: 167px;
+  height: 114px;
+  z-index: 27;
+}
+.deck22 {
+  background-image: url("deck22.png");
+  position: absolute;
+  left: 612px;
+  top: 97px;
+  width: 194px;
+  height: 97px;
+  z-index: 28;
+}
+.deck23 {
+  background-image: url("deck23.png");
+  position: absolute;
+  left: 662px;
+  top: 52px;
+  width: 203px;
+  height: 86px;
+  z-index: 29;
+}
+.frontramp {
+  background-image: url("frontramp.png");
+  position: absolute;
+  left: 30px;
+  top: 341px;
+  width: 518px;
+  height: 405px;
+  z-index: 32;
+}
+.ramp1 {
+  background-image: url("ramp1.png");
+  position: absolute;
+  left: 583px;
+  top: 469px;
+  width: 329px;
+  height: 280px;
+  z-index: 33;
+}
+.ramp2 {
+  background-image: url("ramp2.png");
+  position: absolute;
+  left: 797px;
+  top: 340px;
+  width: 272px;
+  height: 277px;
+  z-index: 34;
+}
+.ramp3 {
+  background-image: url("ramp3.png");
+  position: absolute;
+  left: 965px;
+  top: 232px;
+  width: 247px;
+  height: 248px;
+  z-index: 35;
+}
+.er2 {
+  display: none;
+  background-image: url("ER2.png");
+  position: absolute;
+  left: 1087px;
+  top: 561px;
+  width: 112px;
+  height: 39px;
+  z-index: 52;
+}
+.er3 {
+  display: none;
+  background-image: url("ER3.png");
+  position: absolute;
+  left: 1087px;
+  top: 562px;
+  width: 112px;
+  height: 39px;
+  z-index: 51;
+}
+.er4 {
+  display: none;
+  background-image: url("ER4.png");
+  position: absolute;
+  left: 1088px;
+  top: 562px;
+  width: 116px;
+  height: 38px;
+  z-index: 50;
+}
+.er5 {
+  display: none;
+  background-image: url("ER5.png");
+  position: absolute;
+  left: 1087px;
+  top: 562px;
+  width: 112px;
+  height: 39px;
+  z-index: 49;
+}
+.er6 {
+  display: none;
+  background-image: url("ER6.png");
+  position: absolute;
+  left: 1089px;
+  top: 561px;
+  width: 112px;
+  height: 40px;
+  z-index: 48;
+}
+.er7 {
+  display: none;
+  background-image: url("ER7.png");
+  position: absolute;
+  left: 1088px;
+  top: 562px;
+  width: 112px;
+  height: 38px;
+  z-index: 47;
+}
