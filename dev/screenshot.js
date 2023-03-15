@@ -9,8 +9,8 @@ button.addEventListener('click', function() {
   });
 
   // Get the dimensions of the page
-  const width = document.documentElement.scrollWidth;
-  const height = document.documentElement.scrollHeight;
+  const width = 1321;
+  const height = 749;
 
   // Create a canvas element with the same dimensions as the page
   const canvas = document.createElement('canvas');
