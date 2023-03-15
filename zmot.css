@@ -9,12 +9,23 @@
   color: #fff;
   background-color: #000;
 }
+.share {
+  text-align: right;
+  font-family: 'Bangers'; font-size: 21px;  
+  position: absolute;  
+  left: 900 px;
+  top: 750px;
+  width: 1280px;
+  z-index: 11;
+}
+
 .ERbuttons {
   font-family: 'Bangers'; font-size: 21px;  
   position: absolute;  
   left: 0 px;
   top: 750px;
-  width: 1280px;
+  width: 500px;
+  z-index: 12;
 }
 .details {
   font-family: 'Montserrat';
