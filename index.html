@@ -12,16 +12,36 @@
   <script src="pleaserotate.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script>
-  $(document).ready(function(){
-    $('input[type="checkbox"]').click(function(){
-        var inputValue = $(this).attr("value");
-        $("." + inputValue).toggle();
+    $(document).ready(function(){
+      $('input[type="checkbox"]').click(function(){
+          var inputValue = $(this).attr("value");
+          $("." + inputValue).toggle();
+      });
+  });
+  </script>
+
+  <script>
+    $(document).ready(function() {
+    // Hide all ER divs on page load
+    $('.er2, .er3, .er4, .er5, .er6, .er7').hide();
+
+    // Handle radio button selection
+    $('input[name="er"]').change(function() {
+      // Get the value of the selected radio button
+      var selectedEr = $(this).val();
+
+      // Hide all ER divs
+      $('.er2, .er3, .er4, .er5, .er6, .er7').hide();
+
+      // Show the selected ER div
+      $('.' + selectedEr).show();
     });
-});
-</script>
-  <div class=checkboxes>
-    <H3><B>Overlay:</H3></B>
-    <label><input type="checkbox" name="textCheckbox" value="overlay"> Labels</label><br>
+  });
+  </script>
+
+<div class=checkboxes>
+    <H3>Overlay:</H3>
+    <label><input type="checkbox" name="textCheckbox" value="overlay"> Labels</label>
     <H3><B>Ramps:</H3></B>
     <label><input type="checkbox" name="rampCheckbox" value="frontramp"> Front</label><br>
     <label><input type="checkbox" name="rampCheckbox" value="ramp1"> Ramp1</label><br>
@@ -84,7 +104,22 @@
   <div hidden class="deck22" id="deck22"></div>
   <div hidden class="deck23" id="deck23"></div>
   <div hidden class="overlay" id="overlay"></div>
-  
+  <div class="er2"></div>
+  <div class="er3"></div>
+  <div class="er4"></div>
+  <div class="er5"></div>
+  <div class="er6"></div>
+  <div class="er7"></div>
+
+
+  <div class="ERbuttons">
+    <input type="radio" name="er" value="er2" id="er2-radio"> 2 ER
+    <input type="radio" name="er" value="er3" id="er3-radio"> 3 ER
+    <input type="radio" name="er" value="er4" id="er4-radio"> 4 ER
+    <input type="radio" name="er" value="er5" id="er5-radio"> 5 ER
+    <input type="radio" name="er" value="er6" id="er6-radio"> 6 ER
+    <input type="radio" name="er" value="er7" id="er7-radio"> 7 ER
+  </div>
   <div class=details>
     
     <h3>Disclaimer:</h3>

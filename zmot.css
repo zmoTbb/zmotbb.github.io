@@ -9,7 +9,13 @@
   color: #fff;
   background-color: #000;
 }
-
+.ERbuttons {
+  font-family: 'Bangers'; font-size: 21px;  
+  position: absolute;  
+  left: 0 px;
+  top: 750px;
+  width: 1280px;
+}
 .details {
   font-family: 'Montserrat';
   position: absolute;  
@@ -286,57 +292,63 @@
   height: 248px;
   z-index: 35;
 }
-._2ER {
-  background-image: url("2ER.png");
+.er2 {
+  display: none;
+  background-image: url("ER2.png");
   position: absolute;
   left: 1087px;
   top: 561px;
   width: 112px;
   height: 39px;
-  z-index: 11;
+  z-index: 52;
 }
-._3ER {
-  background-image: url("3ER.png");
+.er3 {
+  display: none;
+  background-image: url("ER3.png");
   position: absolute;
   left: 1087px;
   top: 562px;
   width: 112px;
   height: 39px;
-  z-index: 10;
+  z-index: 51;
 }
-._4ER {
-  background-image: url("4ER.png");
+.er4 {
+  display: none;
+  background-image: url("ER4.png");
   position: absolute;
   left: 1088px;
   top: 562px;
   width: 116px;
   height: 38px;
-  z-index: 9;
+  z-index: 50;
 }
-._5ER {
-  background-image: url("5ER.png");
+.er5 {
+  display: none;
+  background-image: url("ER5.png");
   position: absolute;
   left: 1087px;
   top: 562px;
   width: 112px;
   height: 39px;
-  z-index: 8;
+  z-index: 49;
 }
-._6ER {
-  background-image: url("6ER.png");
+.er6 {
+  display: none;
+  background-image: url("ER6.png");
   position: absolute;
   left: 1089px;
   top: 561px;
   width: 112px;
   height: 40px;
-  z-index: 7;
+  z-index: 48;
 }
-._7ER {
-  background-image: url("7ER.png");
+.er7 {
+  display: none;
+  background-image: url("ER7.png");
   position: absolute;
   left: 1088px;
   top: 562px;
   width: 112px;
   height: 38px;
-  z-index: 6;
+  z-index: 47;
 }
