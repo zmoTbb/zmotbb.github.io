@@ -5,7 +5,8 @@
 <script>
 document.getElementById("capture-btn").addEventListener("click", function() {
     html2canvas(document.body, { 
-        width: 1278 
+        width: 1321,
+        height: 749
     }).then(function(canvas) {
         // Convert canvas to an image and download it
         var link = document.createElement('a');
