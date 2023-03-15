@@ -127,7 +127,10 @@ document.getElementById("capture-btn").addEventListener("click", function() {
     // Get selected radio button value
     var erLevel = document.querySelector('input[name="er"]:checked');
     if (erLevel == null) {
+        var body = document.getElementsByTagName("body")[0];
+        body.style.textAlign = "center";
         alert("Select an ER level first.");
+        body.style.textAlign = "";
         return;
     }
     erLevel = erLevel.value;
