@@ -4,12 +4,12 @@
 <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 <script>
 document.getElementById("capture-btn").addEventListener("click", function() {
-    html2canvas(document.body, {
-        onrendered: function(canvas) {
-            // Convert canvas to an image and save it
-            var img = canvas.toDataURL("image/png");
-            window.open(img);
-        }
+    html2canvas(document.body).then(function(canvas) {
+        // Convert canvas to an image and download it
+        var link = document.createElement('a');
+        link.download = 'screenshot.png';
+        link.href = canvas.toDataURL("image/png");
+        link.click();
     });
 });
 </script>
