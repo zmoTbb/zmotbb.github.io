@@ -1,0 +1,15 @@
+<h1 id="capture">Hellooooo</h1>
+<h2> HI HI HI</h2>
+<button id="capture-btn">Capture Page</button>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script>
+document.getElementById("capture-btn").addEventListener("click", function() {
+    html2canvas(document.body, {
+        onrendered: function(canvas) {
+            // Convert canvas to an image and save it
+            var img = canvas.toDataURL("image/png");
+            window.open(img);
+        }
+    });
+});
+</script>
